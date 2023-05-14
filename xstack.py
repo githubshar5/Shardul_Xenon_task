@@ -1,6 +1,6 @@
 python -m pip install --upgrade pip
 from flask import Flask, render_template, request, session, redirect
-from flask_mysqldb import MySQL
+from flask_mysqldb import MySQL,*
 import hashlib
 
 app = Flask(__name__)
